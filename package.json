@@ -1,0 +1,32 @@
+{
+  "name": "w4e-education",
+  "version": "1.0.0",
+  "description": "template for w4e-education",
+  "main": "index.php",
+  "dependencies": {},
+  "devDependencies": {
+    "gridle": "^2.0.44",
+    "gulp-debug": "^2.1.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.7"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jimilucio/w4e-education.git"
+  },
+  "keywords": [
+    "wordpress",
+    "theme",
+    "sass",
+    "gulp"
+  ],
+  "author": "Luciano Murruni",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jimilucio/w4e-education/issues"
+  },
+  "homepage": "https://github.com/jimilucio/w4e-education#readme"
+}
