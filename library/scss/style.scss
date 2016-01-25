@@ -1,8 +1,6 @@
-/*! Made with Bones: http://themble.com/bones :) */
-
 /******************************************************************
-Site Name:
-Author:
+Site Name: education.w4e.it
+Author: Luciano Murruni
 
 Stylesheet: Main Stylesheet
 
@@ -57,6 +55,17 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 
 // forms (inputs & labels)
 @import "modules/forms";
+
+
+
+/*********************
+PLUGIN DEPENDENCIES
+Specify there the css dependencies for plugin
+*********************/
+@import "./node_modules/slick-carousel/slick/slick.scss";
+@import "./node_modules/slick-carousel/slick/slick-theme.scss";
+
+
 
 /*********************
 BASE (MOBILE) SIZE
