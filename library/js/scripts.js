@@ -115,7 +115,7 @@ jQuery(document).ready(function($) {
     cssEase: 'linear'
   });
 
-  $('.corsi').slick({
+  $('#courses-slider').slick({
     autoplay:true,
     dots: true,
     infinite: true,
