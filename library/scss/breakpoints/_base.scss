@@ -242,10 +242,15 @@ HEADER STYLES
     }
 }
 
+i.small{
+    font-size: 20px;
+    max-width: 50px;
+    vertical-align: middle;
+}
 
-.language{
-    padding:10px;
+.headText{
     color:#fff;
+    line-height:44px;
 }
 
 #logo {
@@ -355,13 +360,14 @@ POSTS & CONTENT STYLES
     height:60px;
 }
 
+
 .promoBadge{
     background-color:$yellow;
     color:$white!important;
     border-radius:0;
     top: 30px;
-    left: 0!important;
     padding:10px;
+    float:left;
 }
 
 .titoloCorsi{

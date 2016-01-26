@@ -2838,13 +2838,13 @@ td, th {
 
 span.badge {
   min-width: 3rem;
-  padding: 5px 10px;
+  padding: 0 6px;
   text-align: center;
   font-size: 1rem;
   line-height: inherit;
-  color: #fff;
+  color: #757575;
   position: absolute;
-  font-weight: 800;
+  right: 15px;
   box-sizing: border-box; }
   span.badge.new {
     font-weight: 300;
@@ -9891,9 +9891,14 @@ HEADER STYLES
   .header .carrello {
     background-color: #e74c3c; }
 
-.language {
-  padding: 10px;
-  color: #fff; }
+i.small {
+  font-size: 20px;
+  max-width: 50px;
+  vertical-align: middle; }
+
+.headText {
+  color: #fff;
+  line-height: 44px; }
 
 #logo {
   text-align: center;
@@ -9963,8 +9968,8 @@ POSTS & CONTENT STYLES
   color: #fff !important;
   border-radius: 0;
   top: 30px;
-  left: 0 !important;
-  padding: 10px; }
+  padding: 10px;
+  float: left; }
 
 .titoloCorsi {
   text-align: center; }

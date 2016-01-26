@@ -45,15 +45,16 @@ global $woocommerce;
       <div id="base-header" class="base">
         
           <div class="row">
-            <div class="col s1"><div class="language">ITALIANO</div></div>
-            <div class="col s1 push-s6"><div class="language"><a href="">Accedi</a>/<a href="">Registrati</a></div></div>
-            <div class="col s3 offset-s7 carrello">
-                <?php if ( is_user_logged_in() ) { ?>
+            <div class="col s1 offset-s1"><div class="headText">ITALIANO</div></div>
+            <div class="col s7 "><div class="headText right"><?php if ( is_user_logged_in() ) { ?>
                     <div class="site-header-right-link"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','oceanic'); ?>"><?php _e('My Account','oceanic'); ?></a></div>
                 <?php } else { ?>
                     <div class="site-header-right-link"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('Login','oceanic'); ?>"><?php _e('Sign In / Register','oceanic'); ?></a></div>
-                <?php } ?>
-                <div class="header-cart">
+                <?php } ?></div></div>
+            <div class="col s3  carrello">
+                
+                <div class="header-cart headText">
+                <i class="small material-icons">shopping_cart</i>
                     <a class="header-cart-contents" href="<?php echo $woocommerce->cart->get_cart_url(); ?>" title="<?php _e('View your shopping cart', 'oceanic'); ?>">
                         <span class="header-cart-amount">
                             <?php echo sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'oceanic'), $woocommerce->cart->cart_contents_count);?> - <?php echo $woocommerce->cart->get_cart_total(); ?>
