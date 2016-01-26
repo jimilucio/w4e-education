@@ -115,6 +115,15 @@ jQuery(document).ready(function($) {
     cssEase: 'linear'
   });
 
+  $('.corsi').slick({
+    autoplay:true,
+    dots: true,
+    infinite: true,
+    speed: 500,
+    draggable:true,
+    cssEase: 'linear'
+  });
+
   /*
    * Let's fire off the gravatar function
    * You can remove this if you don't need it
