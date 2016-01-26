@@ -73,3 +73,18 @@ and it will create a button dependant on those variables.
   } // end active
 
 } // end blue button
+
+.buttonsMore{
+    float:right;
+    color:$red;
+    border: 1px solid $red;
+    background-color:$white;
+    border-radius:0;
+
+
+&:hover, &:focus, &:active{
+    color:$white;
+    background-color:#0288D1!important;
+    border:0px;
+  }
+}

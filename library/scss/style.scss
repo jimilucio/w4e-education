@@ -24,6 +24,9 @@ the whole project.
 // normalize: http://necolas.github.io/normalize.css/
 @import "partials/normalize";
 
+//materialize
+@import "./node_modules/materialize-css/sass/materialize.scss";
+
 // Sass variables
 @import "partials/variables";
 
@@ -36,8 +39,6 @@ the whole project.
 // import mixins
 @import "partials/mixins";
 
-// the grid
-@import "partials/grid";
 
 /*********************
 IMPORTING MODULES

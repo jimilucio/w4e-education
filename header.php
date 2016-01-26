@@ -43,11 +43,11 @@ global $woocommerce;
   <div id="container">
     <header class="row row-full row-debug header" role="banner" itemscope itemtype="http://schema.org/WPHeader">
       <div id="base-header" class="base">
-        <div class="wrap cf ">
-          <div class="row nowrap row-align-middle" >
-            <div class="gr-adapt">italiano</div>
-            <div class="gr-grow"></div>
-            <div class="gr-adapt">
+        
+          <div class="row">
+            <div class="col s1"><div class="language">ITALIANO</div></div>
+            <div class="col s1 push-s6"><div class="language"><a href="">Accedi</a>/<a href="">Registrati</a></div></div>
+            <div class="col s3 offset-s7 carrello">
                 <?php if ( is_user_logged_in() ) { ?>
                     <div class="site-header-right-link"><a href="<?php echo get_permalink( get_option('woocommerce_myaccount_page_id') ); ?>" title="<?php _e('My Account','oceanic'); ?>"><?php _e('My Account','oceanic'); ?></a></div>
                 <?php } else { ?>
@@ -65,13 +65,14 @@ global $woocommerce;
                 </div>
             </div>
           </div>
-        </div>
+        
       </div> <!-- base header -->
-      <div id="inner-header" class="wrap cf">
+      <div id="inner-header">
         <?php // to use a image just replace the bloginfo('name') with your img src and remove the surrounding <p> ?>
-          <div class="row nowrap wrap@mobile row-align-middle" >
-            <div class="gr-adapt">=</div>
-            <div class="gr-grow">
+       
+          <div class="row">
+            <div class="col s1"><i class="small material-icons">view_headline</i></div>
+            <div class="col s2 push-s4">
               <p id="logo" class="h1" itemscope itemtype="http://schema.org/Organization">
                 <a href="<?php echo home_url(); ?>" rel="nofollow"><?php bloginfo('name'); ?></a>
                 <span class="description"><?php  bloginfo('description'); ?></span>
@@ -93,6 +94,9 @@ global $woocommerce;
                 )); ?>
               </nav>
           </div>
-          <div class="gr-adapt"></div>
-        </div>
+          <div class="col s1 offset-s8"><i class="small material-icons">search</i></div>
+          </div><!--row-->
+        
+        </div><!--inner-->
       </header>
+      

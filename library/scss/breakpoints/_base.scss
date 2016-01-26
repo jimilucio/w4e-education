@@ -227,19 +227,30 @@ HEADER STYLES
 *********************/
 
 .header {
-    background-color: $meta-gray;
-    position: fixed;
+    background-color: $white;
+    position: initial;
     height: 130px;
     overflow: hidden;
+    margin-bottom:0;
 
     .base{
     	background: $black;
     }
+    .carrello{
+    background-color:$red;
+
+    }
+}
+
+
+.language{
+    padding:10px;
+    color:#fff;
 }
 
 #logo {
     text-align: center;
-    margin: 0.35em 0;
+    margin-top:-8px;
 
     a {
         color: $black;
@@ -334,8 +345,36 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
+.topSlider{
+    background-color:$white;
+    height:100vh;
+}
+
+.card .card-action{
+    padding:10px!important;
+    height:60px;
+}
+
+.promoBadge{
+    background-color:$yellow;
+    color:$white!important;
+    border-radius:0;
+    top: 30px;
+    left: 0!important;
+    padding:10px;
+}
+
+.titoloCorsi{
+    text-align:center;
+}
+.prezzoCorso{
+    color:$yellow;
+    font-size:20px;
+    float:left
+}
+
 #content {
-    margin-top: 130px;
+ 
 }
 
 #main{
@@ -360,6 +399,9 @@ POSTS & CONTENT STYLES
     header {
         border-bottom: 1px solid $light-gray;
         padding: 1.5em;
+    row{
+        margin-bottom:0!important;
+    }
     }
 
     footer {

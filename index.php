@@ -2,8 +2,9 @@
 <div id="content">
 
 
-	<div id="inner-content">
-		<main id="main" class="m-all t-2of3 d-5of7 cf" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
+	<div id="inner-content-top">
+
+		<main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
 		<?php $query = new WP_Query( 'cat=11' ); ?>
  		<?php if ( $query->have_posts() ) : while ( $query->have_posts() ) : $query->the_post(); ?>
 		<?php
@@ -56,6 +57,49 @@
 		</main>
 
 
+
+		<?php //get_sidebar(); ?>
+	</div>
+
+	<div id="inner-content-corsi" >
+		
+		<h2 class="titoloCorsi">ACQUISTA IL TUO CORSO</h2>
+			<div class="corsi">
+		      <div class="row">
+		        <div class="col s12 m3">
+		          <div class="card">
+
+		            <div class="card-image">
+
+		              <img src="wp-content/themes/w4e-education/html5.png">
+		               <span class="badge promoBadge">PROMO</span>
+		              <span class="card-title">Card Title</span>
+		            </div>
+		            <div class="card-content">
+		              <p>I am a very simple card. I am good at containing small bits of information.
+		              I am convenient because I require little markup to use effectively.</p>
+		            </div>
+
+		            <div class="card-action">
+		            <div class="prezzoCorso">100€</div>
+
+					<a class="waves-effect btn buttonsMore">Stuff</a>
+		            </div>
+
+		          </div>
+		        </div>
+
+
+		          </div>
+		         </div>
+		       </div>
+		    </div>
+
+	</div>
+	
+	<div id="inner-content-aziende">
+		
+	
 		<div class="b2b-solutions">
 
 
@@ -98,8 +142,10 @@
 
 		</div>
 
-
-		<?php //get_sidebar(); ?>
 	</div>
+
+	<!--End slider-->
+
+
 	</div> <!-- /content  -->
 	<?php get_footer(); ?>

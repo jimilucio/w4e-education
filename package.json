@@ -3,9 +3,10 @@
   "version": "1.0.0",
   "description": "template for w4e-education",
   "main": "index.php",
-  "dependencies": {},
+  "dependencies": {
+    "materialize-css": "^0.97.5"
+  },
   "devDependencies": {
-    "gridle": "^2.0.44",
     "gulp-debug": "^2.1.2",
     "gulp-sass": "^2.1.1",
     "gulp-util": "^3.0.7",
