@@ -240,6 +240,7 @@ HEADER STYLES
     background-color:$red;
 
     }
+
 }
 
 i.small{
@@ -380,7 +381,9 @@ POSTS & CONTENT STYLES
 }
 
 #content {
- 
+    video{
+        width: 100%;
+    }
 }
 
 #main{
