@@ -58,7 +58,7 @@
 			}
 			?>
 
-				<div class="col s12 m3">
+				<div class="col s12 m4">
 					<div class="card">
 						<div class="card-image">
 							<img src="<?php echo($post_image[0]);?>">
@@ -71,7 +71,7 @@
 						</div>
 						<div class="card-action">
 							<div class="prezzoCorso">100€</div>
-							<a class="waves-effect btn buttonsMore"><?php _e( 'Acquista!', 'bonestheme' ); ?></a>
+							<a class="waves-effect waves-light btn buttonsMore"><?php _e( 'Acquista!', 'bonestheme' ); ?></a>
 						</div>
 					</div>
 				</div>
