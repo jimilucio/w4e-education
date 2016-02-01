@@ -58,7 +58,7 @@
 			}
 			?>
 
-				<div class="col s12 m4 l3 swiper-slide">
+				<div class="col s12 m6 l4 swiper-slide">
 					<div class="card medium hoverable">
 						<div class="card-image">
 							<img src="<?php echo($post_image[0]);?>">
