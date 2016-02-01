@@ -128,13 +128,14 @@ function bones_scripts_and_styles() {
   	wp_register_script( 'bones-modernizr', get_stylesheet_directory_uri() . '/library/js/libs/modernizr.custom.min.js', array(), '2.5.3', false );
 
       // modernizr (without media query polyfill)
-      wp_register_script( 'slick', get_stylesheet_directory_uri() . '/node_modules/slick-carousel/slick/slick.min.js', array('jquery'), '', true );
+      wp_register_script( 'swiper', get_stylesheet_directory_uri() . '/node_modules/swiper/dist/js/swiper.min.js', array('jquery'), '', true );
+
+
 
 
       wp_register_script( 'materialize', get_stylesheet_directory_uri() . '/node_modules/materialize-css/dist/js/materialize.js', array('jquery'), '', true );
   	// register main stylesheet
   	wp_register_style( 'bones-stylesheet', get_stylesheet_directory_uri() . '/library/css/style.css', array(), '', 'all' );
-
   	// ie-only style sheet
   	wp_register_style( 'bones-ie-only', get_stylesheet_directory_uri() . '/library/css/ie.css', array(), '' );
 
@@ -159,7 +160,7 @@ function bones_scripts_and_styles() {
   	and your site will load faster.
   	*/
   	wp_enqueue_script( 'jquery' );
-  	wp_enqueue_script( 'slick' );
+  	wp_enqueue_script( 'swiper' );
       wp_enqueue_script( 'bones-js' );
       wp_enqueue_script('materialize');
 

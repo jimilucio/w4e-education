@@ -4,7 +4,8 @@
   "description": "template for w4e-education",
   "main": "index.php",
   "dependencies": {
-    "materialize-css": "^0.97.5"
+    "materialize-css": "^0.97.5",
+    "swiper": "^3.3.0"
   },
   "devDependencies": {
     "gulp-debug": "^2.1.2",

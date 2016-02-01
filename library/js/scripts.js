@@ -116,24 +116,15 @@ jQuery(document).ready(function($) {
       alignment: 'left' // Displays dropdown with edge aligned to the left of button
     }
   );
-  /* main function for home slideshow */
-  // $('#main').slick({
-  //   autoplay:true,
-  //   dots: true,
-  //   infinite: true,
-  //   speed: 500,
-  //   fade: true,
-  //   cssEase: 'linear'
-  // });
 
-  $('#courses-slider').slick({
-    autoplay:true,
-    dots: true,
-    infinite: true,
-    speed: 500,
-    draggable:true,
-    cssEase: 'linear'
-  });
+
+    //initialize swiper when document ready  
+    var mySwiper = new Swiper ('.swiper-container', {
+      // Optional parameters
+      direction: 'horizontal',
+      loop: true,
+      slidesPerView : 'auto'
+    });        
 
   /*
    * Let's fire off the gravatar function

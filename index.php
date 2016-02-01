@@ -37,8 +37,8 @@
 			Scegli il corso di tuo interessa, e prenota subito il tuo posto! Tutti i corsi hanno un limite di posti disponibili.</h3>
 
 
-		<div class="corsi">
-			<div class="row">
+		<div class="courses swiper-container">
+			<div class="row swiper-wrapper">
 			<?php
 
 			$args = array(
@@ -58,15 +58,15 @@
 			}
 			?>
 
-				<div class="col s12 m4">
-					<div class="card">
+				<div class="col s12 m4 l3 swiper-slide">
+					<div class="card medium hoverable">
 						<div class="card-image">
 							<img src="<?php echo($post_image[0]);?>">
 							<span class="badge promoBadge">PROMO</span>
-							<span class="card-title"><?php the_title(); ?></span>
 						</div>
 						<div class="card-content">
-							<p>I am a very simple card. I am good at containing small bits of information.
+						<span class="card-title"><?php the_title(); ?></span>
+							<p class="truncate">I am a very simple card. I am good at containing small bits of information.
 							I am convenient because I require little markup to use effectively.</p>
 						</div>
 						<div class="card-action">

@@ -220,6 +220,9 @@ h5, .h5 {
 #container{
 	overflow: auto;
 }
+.left8{
+    left:8.777%;
+}
 
 
 /*********************
@@ -243,6 +246,12 @@ HEADER STYLES
 
 }
 
+#nav-mobile{
+    position::absolute;
+    top:0;
+    right: 8.777%;
+}
+
 i.small{
     font-size: 20px;
     max-width: 50px;
@@ -255,15 +264,13 @@ i.small{
 }
 
 #logo {
-    text-align: center;
     margin-top:-8px;
-
+    margin-left: 8.777%;
     a {
         color: $black;
     }
 
     .description {
-        text-align: center;
         font-size: 0.5em;
         font-weight: 500;
         line-height: 0.60em;
