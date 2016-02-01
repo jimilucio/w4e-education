@@ -123,7 +123,11 @@ jQuery(document).ready(function($) {
       // Optional parameters
       direction: 'horizontal',
       loop: true,
-      slidesPerView : 'auto'
+      slidesPerView : 'auto',
+      centeredSlides : true,
+      spaceBetween : 10,
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
     });        
 
   /*

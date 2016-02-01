@@ -358,6 +358,13 @@ and more scalable.
 POSTS & CONTENT STYLES
 *********************/
 
+.swiper-button-prev{
+    background : url(../images/icon-svg/prevArrow.svg) center center no-repeat;
+}
+.swiper-button-next{
+    background : url(../images/icon-svg/nextArrow.svg) center center no-repeat!important;
+}
+
 .topSlider{
     background-color:$white;
     height:100vh;

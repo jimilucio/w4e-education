@@ -26,6 +26,13 @@ the whole project.
 
 //materialize
 @import "./node_modules/materialize-css/sass/materialize.scss";
+/*********************
+PLUGIN DEPENDENCIES
+Specify there the css dependencies for plugin
+*********************/
+@import "/wp-content/themes/w4e-education/node_modules/swiper/dist/css/swiper.min.css";
+
+
 
 // Sass variables
 @import "partials/variables";
@@ -58,12 +65,6 @@ you hate oysters, then the world is your peanut butter & jelly sandwich.
 @import "modules/forms";
 
 
-
-/*********************
-PLUGIN DEPENDENCIES
-Specify there the css dependencies for plugin
-*********************/
-@import "/wp-content/themes/w4e-education/node_modules/swiper/dist/css/swiper.min.css";
 
 
 
