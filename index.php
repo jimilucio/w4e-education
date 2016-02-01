@@ -4,8 +4,8 @@
 
 		<video autoplay  poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg" id="bgvid" loop>
 		  <!-- WCAG general accessibility recommendation is that media such as background video play through only once. Loop turned on for the purposes of illustration; if removed, the end of the video will fade in the same way created by pressing the "Pause" button  -->
-		<source src="wp-content/themes/w4e-education/library/video/demo.webm" type="video/webm">
-		<source src="wp-content/themes/w4e-education/library/video/demo.mp4" type="video/mp4">
+		<source src="/wp-content/themes/w4e-education/library/video/demo.webm" type="video/webm">
+		<source src="/wp-content/themes/w4e-education/library/video/demo.m4v" type="video/mp4">
 		</video>
 
 		<main id="main" role="main" itemscope itemprop="mainContentOfPage" itemtype="http://schema.org/Blog">
